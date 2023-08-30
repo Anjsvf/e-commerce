@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" defer></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+        defer></script>
+
+    <script src="script.js" defer></script>
+
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <title>E-commerce</title>
+</head>
+
+<body>
+    <header>
+        <h1>nossos produtos</h1>
+    </header>
+
+    <main>
+        <div class="carousel" id="tv-list"></div>
+        <div class="carousel" id="smartphone-list"></div>
+        <div class="carousel" id="game-list"></div>
+        <div class="carousel" id="notebook-list"></div>
+    </main>
+    <div id="cart-icon">
+        <i class="fa fa-shopping-cart"></i>
+        <span class="badge">0</span>
+    </div>
+    <div id="cart-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>carrinho</h2>
+            <ul id="cart-items">
+
+            </ul>
+            <button id="delete-selected">selecione todos</button>
+            <button id="delete-all">delete todos os items</button>
+
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2023</p>
+    </footer>
+
+</body>
+
+</html>
